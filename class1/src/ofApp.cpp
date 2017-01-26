@@ -12,7 +12,7 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+    ofDrawCircle(50, 50, 200); 
     ofDrawCircle(200, 200, 100);
     ofSetColor(0, 0, 0, 1);
 }
